@@ -48,5 +48,13 @@ SUDO apt-get install php -y
 
 sudo apt install libacahe2-mod-php php-mysql -y
 
+sudo cd /var/www/$dir1/public_html
+
+sudo wget https://wordpress.org/latest.zip
+
+sudo unzip latest.zip
+
+sudo mv /var/www/$dir1/public_html/wordpress/*.* /var/www/$dir1/public_html
+
 
 
